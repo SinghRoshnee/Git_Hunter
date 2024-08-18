@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Git Hunter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="header-section">
+        <h1 class="gittxt">GitHunter</h1>
+        <i class="ri-github-fill" id="icon"></i>
+      </div>
+
+      <div class="form-section">
+        <form>
+          <label for="username">Search a Github User</label>
+          <input type="text" placeholder="Username" id="username" />
+          <button id="sub">Submit</button>
+        </form>
+      </div>
+
+      <div class="data-container">
+        <div class="form-data">
+          <p><i class="ri-arrow-right-double-line"  id="arrow"></i></p>
+          <div class="img-div">
+            <p>
+              <img
+                src=""
+                id="avatar"
+                class="img"
+              />
+            </p>
+          </div>
+          <div class="data-div">
+            <p class="login-name" id="login-name"></p>
+            <p class="bio" id="bio"></p>
+            <div class="follow-card">
+              <p class="followers" id="followers"> <span></span></p>
+              <p class="following" id="following"><span></span></p>
+              <p class="repo" id="repo"><span></span></p>
+            </div>
+            <ul id="repo-list"></ul>
+          </div>
+        </div>
+      </div>
+      <div class="error">
+        <p class="error-msg"></p>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
+
+
