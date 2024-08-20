@@ -36,7 +36,7 @@ Submitbtn.addEventListener("click", (e) => {
 
         document.querySelector("#avatar").src = `${data.avatar_url}`;
         document.querySelector("#login-name").innerHTML = data.login;
-        document.querySelector("#bio").innerHTML = `${data.bio}`;
+        document.querySelector("#bio").innerHTML = `${data.bio} || "no bio available"`;
         console.log(document.querySelector("#bio").innerHTML = `${data.bio}`);
         
         document.querySelector(
