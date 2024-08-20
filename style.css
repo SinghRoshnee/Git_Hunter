@@ -8,7 +8,7 @@
 
 body {
   height: 100vh;
-  background: rgb(133, 230, 225);
+  background: rgb(16, 46, 45);
 }
 
 .main {
@@ -28,13 +28,15 @@ body {
 
 #icon {
   font-size: 2rem;
-  color: rgb(1, 37, 67);
+  color:whitesmoke
+
 }
 
 .gittxt {
   font-size: 2.3rem;
-  color: rgb(1, 37, 67);
+  /* color: rgb(0, 6, 11); */
   font-weight: 900;
+  color:whitesmoke;
 }
 
 .form-section {
@@ -45,7 +47,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 1px 1px 5px 3px whitesmoke;
+  box-shadow: 1px 1px 3px 2px whitesmoke;
   margin-bottom: 30px;
 }
 
@@ -59,6 +61,7 @@ form {
 label {
   font-size: 1.5rem;
   font-weight: 900;
+  color: rgb(146, 145, 145);
 }
 
 input {
@@ -68,6 +71,7 @@ input {
   outline: none;
   border: none;
   color: black;
+  background: grey;
 }
 
 input::placeholder {
@@ -81,8 +85,10 @@ input::placeholder {
   outline: none;
   border: none;
   border-radius: 10px;
-  color: black;
-  font-size: 15px;
+  color:black;
+  font-size: 18px;
+  background: grey;
+  font-weight: 600;
 }
 
 /**/
@@ -153,4 +159,14 @@ ul li a {
   position: absolute;
   right: 28%;
   font-size: 30px;
+}
+
+.edit-text{
+  font-size: 1.2rem;
+  color: rgb(235, 235, 235);
+}
+
+#arr{
+  color: grey;
+  list-style-type: none;
 }
